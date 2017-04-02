@@ -5,7 +5,7 @@ public class Main {
 		String seperator = "|";
 		Tokenizer tokenizer = new Tokenizer();
 
-		String test = tokenizer.Tokenize("test1.java");
+		String test = tokenizer.Tokenize("test2.java");
 		String[] output = test.split(seperator);
 		System.out.println("OUTPUT: " + test);
 	}
